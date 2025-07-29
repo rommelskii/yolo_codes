@@ -1,0 +1,8 @@
+path: ./CRDDC_USA_YOLO_formatted
+train: train/images
+val: val/images
+test: test/images  # Optional, if you created a test set
+
+# Classes
+nc: 4  # Number of classes
+names: ['D00', 'D10', 'D20', 'D40']  # Class names in order of CLASS_MAPPING
